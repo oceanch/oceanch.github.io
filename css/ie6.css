@@ -1,0 +1,32 @@
+/* Website template by # */
+
+#body div#home,
+#body div#home div.sidebar ul li,
+div.body div div.content ul li {
+	height: 1%;
+}
+
+#body div#home div.sidebar ul li {
+	margin: 45px 0 0;
+}
+
+#body div#home div.sidebar {
+	margin-left: 15px;
+}
+
+#body div div.sidebar ul li {
+	margin: 95px 0 0;
+}
+
+#body div#gallery ul li div ul {
+	padding: 0;
+	width: 209px;
+}
+
+#body div#gallery {
+	padding: 20px 20px 20px 0;
+}
+
+#body div div#contact h3 {
+	margin: 35px 0 0;
+}

@@ -1,0 +1,17 @@
+/* Website template by # */
+
+#body div#home div.sidebar ul li {
+	margin: 25px 0 0;
+}
+
+#body div div#contact h3 {
+	margin: 35px 0 0;
+}
+
+#body div div.sidebar ul li {
+	margin: 95px 0 0;
+}
+
+#footer div.section ul li p {
+	width: 200px;
+}
