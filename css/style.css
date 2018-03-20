@@ -108,7 +108,7 @@ div.body {
 	background: url(../images/kia-connected-cars.jpg) no-repeat center top;
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 500px 0 0;
+	padding: 413px 0 0;
 	width: 960px;
 }
 
@@ -373,7 +373,7 @@ div.body div div.content ul li div p {
 	border-radius: 10px;
 	float: right;
 	padding: 15px 20px;
-	width: 580px;
+	width: 900px;
 }
 
 #body div div.content h3,
@@ -477,7 +477,7 @@ div.body div div.content ul li div p {
 
 #body div#gallery ul li {
 	float: left;
-	height: 315px;
+	height: 148px;
 	margin: 10px;
 	width: 210px;
 }
