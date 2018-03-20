@@ -39,7 +39,7 @@ p a:hover {
 
 #header div div#logo {
 	padding: 0 0 5px;
-	 border: 1px solid black;
+	/* border: 1px solid black;*/
 	width: auto;
 }
 
