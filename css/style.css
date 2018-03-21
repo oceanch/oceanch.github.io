@@ -98,7 +98,7 @@ p a:hover {
 }
 
 div.body {
-	background: url(../images/bg-footer.gif) repeat;
+	background: url(../images/bg-body.gif) repeat;
 	height: 100%;
 	padding-bottom: 40px;
 	width: 100%;
@@ -199,6 +199,7 @@ div.body div {
 }
 
 div.body div {
+	background: url(../images/bg-content.png) repeat;
 	position: relative;
 	top: -3px;
 }
@@ -299,11 +300,15 @@ div.body div div.content ul li {
 }
 
 div.body div div.content ul li.first div {
-	border: 0;
+	border-radius: 15px;
+    	background: #f0f0f0;
+	height: 100px;
+	overflow: auto;
+	width: 700px;
 }
 
 div.body div div.content ul li.first div h1 {
-	margin: 10px 0 0;
+	margin: 5px 15px 0;
 }
 
 div.body div div.content ul li.first span {
@@ -311,8 +316,9 @@ div.body div div.content ul li.first span {
 }
 
 div.body div div.content ul li span {
-	background: url(../images/bg-date.jpg) no-repeat;
-	color: #5d6a00;
+	border-radius: 15px;
+    	background: #73AD21;
+	color: #fff;
 	display: block;
 	font-size: 16px;
 	float: left;
@@ -343,7 +349,7 @@ div.body div div.content ul li div h1 {
 
 div.body div div.content ul li div p {
 	line-height: 24px;
-	margin: 0;
+	margin: 5px 15px 5px;
 	text-align: justify;
 }
 
