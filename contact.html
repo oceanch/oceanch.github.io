@@ -16,6 +16,7 @@
 	<![endif]-->
 </head>
 <body>
+
 	<div id="header">
 		<div>
 			<div id="logo">
@@ -40,6 +41,7 @@
 				<h3>Follow us</h3>
 				<a href="#" target="_blank" id="facebook">Facebook</a>
 			</div>
+
 			<div id="contact">
 				<h3 class="first">Customer Service</h3>
 				<p>E-mail: <a href="mailto:manalgorithmuk@gmail.com">manalgorithmuk@gmail.com</a></p>
@@ -50,8 +52,30 @@
 				<p>Guildford </p>
 				<p>UK </p>
 				<p>GU47YZ</p>
+
 			</div>
+
+
 		</div>
+
 	</div>
+	<div id="map" ></div>
+ <script>
+	      function initMap() {
+		var uluru = {lat: 51.252984, lng: -0.596812};
+		var map = new google.maps.Map(document.getElementById('map'), {
+		  zoom: 5,
+		  center: uluru
+		});
+		var marker = new google.maps.Marker({
+		  position: uluru,
+		  map: map
+		});
+	      }
+    	</script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ55HtV1ilnZWc4BoPxz3qgITRfb6s4Z0&callback=initMap">
+				    </script>
+
 </body>
+<div class="footer"> </div>
 </html>

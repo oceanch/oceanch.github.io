@@ -14,19 +14,36 @@
 	<!--[if IE 6]>
 		<link rel="stylesheet" type="text/css" href="css/ie6.css">
 	<![endif]-->
+
+	    <style>
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+	    text-align: justify;
+
+}
+</style>
+
 </head>
 <body>
-<script>
-	function myMap() {
-	var mapOptions = {
-	    center: new google.maps.LatLng(51.5, -0.12),
-	    zoom: 10,
-	    mapTypeId: google.maps.MapTypeId.HYBRID
-	}
-	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-	}
-	</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG2knqDOPmzJU_I6FoHe1DuY4a1HZBPZ4&callback=myMap"></script>
 	<div id="header">
 		<div>
 			<div id="logo">
@@ -45,35 +62,45 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="body">
 		<div>
- <div class="content">
+		<div class="container">
 
-  	
-      	<img  src="images/logo - Banner2.png" alt="Man Algorithm" class="pull-right"/>
-        <!--h1>Company</h1-->
-        <p>Man Algorithm Ltd. is specialized in the research, development, manufacturing and distribution of Cooperative Intelligent Transportation Systems (C-ITS) including Vehicle-To-Vehicle (V2V) and Vehicle-To-Infrastructure (V2I) communication technologies. The founders include respected scientists who have been key contributors to the development of V2X technologies in the past decades, allowing Man Algorithm to become the fastest growing V2X solution provider on the market.</p>
+			<nav>
+			  <ul>
+			    <!--li><a href="index.html">MAN ALGORITHM LIMITED</a></li-->
+			    <li><a href="index.html"><img  src="images/logo - Banner2.png" alt="Man Algorithm" class="pull-right"/></a></li>
+			  </ul>
+			</nav>
 
-	<h1>My First Google Map</h1>
+			<article>
+			  <h2>
+			  <p>Man Algorithm Ltd. is specialized in the research, development, manufacturing and distribution of Cooperative Intelligent Transportation Systems (C-ITS) including Vehicle-To-Vehicle (V2V) and Vehicle-To-Infrastructure (V2I) communication technologies. The founders include respected scientists who have been key contributors to the development of V2X technologies in the past decades, allowing Man Algorithm to become the fastest growing V2X solution provider on the market.</p>
+			  </h2>
+			</article>
+		</div>
+		<div class="container">
+			<nav>
+			  <ul>
+			    <!--li><a href="index.html">MAN ALGORITHM LIMITED</a></li-->
+			    <li><a href="https://www.linkedin.com/in/drchonghan"><img src="images/chonghan.jpeg" style="width:160px;height:160px;" /></a></li>
+			  </ul>
+			</nav>
 
-	<div id="map" style="width:400px;height:400px;background:yellow"></div>
-
-	
-
-	
-	<!--
-	To use this code on your website, get a free API key from Google.
-	Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
-	-->
-  	<h1>Founder</h1>
-	<p><p>
-
-              <img src="images/chonghan.jpeg" style="width:100px;height:100px;"/>
-        <h3 class="first">Dr Chong Han</h3> <a href="https://www.linkedin.com/in/drchonghan" title="LindkedIn">LinkedIn</a>
-                <p>Connected car technology expert with 10 years of experience in product development and vehicle-to-vehicle and vehicle-to-infrastructure (V2X) communication technologies. Research interests focus on Visible Light Communications, Autonomous Vehicles, Connected Vehicles, 5G, big data and applied communication architecture design (e.g., Health Service, Police, Insurance).<p>
+			<article>
+			  <h1>Dr Chong Han (Founder)</h1>
+			  <h2>
+			  <p>Connected car technology expert with 10 years of experience in product development and vehicle-to-vehicle and vehicle-to-infrastructure (V2X) communication technologies. Research interests focus on Visible Light Communications, Autonomous Vehicles, Connected Vehicles, 5G, big data and applied communication architecture design (e.g., Health Service, Police, Insurance).</p>
+			  <h2>
+			</article>
 
 		</div>
+		</div>
 	</div>
+
 	
 </body>
+<div class="footer"></div>
+
 </html>

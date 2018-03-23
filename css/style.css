@@ -379,7 +379,7 @@ div.body div div.content ul li div p {
 	border-radius: 10px;
 	float: right;
 	padding: 15px 20px;
-	width: 900px;
+	width: 50%;
 }
 
 #body div div.content h3,
@@ -636,153 +636,25 @@ div.body div div.content div#paging ul li a:hover {
 	background: url(../images/bg-text.gif) no-repeat 0 -337px;
 }
 
-#footer {
+div.footer:after {
+    padding: 1em;
+    color: #fff;
+    background-color: black;
+   /* clear: left;*/
+content:  "Copyright \00a9 2018 Man Algorithm Limited. All rights reserved.";
+	width: 100%;
+    text-align: center;
 	height: auto;
-	width: 100%;
+ float: right;
 }
 
-#footer div {
-	background: url(../images/bg-footer.gif) repeat;
-	height: 250px;
-	width: 100%;
-}
-
-#footer div div {
-	background: none;
-	height: auto;
-	margin: 0 auto;
-	width: 960px;
-}
-
-#footer div div span {
-	background: url(../images/bg-text.gif) no-repeat 0 0;
-	color: #6a7112;
-	display: block;
-	font-size: 16px;
-	height: 35px;
-	left: 0;
-	line-height: 35px;
-	margin-bottom: 10px;
-	position: relative;
-	text-align: center;
-	text-shadow: 0 1px #e8f09b;
-	top: -4px;
-	width: 120px;
-}
-
-#footer div div ul {
-	list-style: none;
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-}
-
-#footer div div ul li {
-	float: left;
-	margin-left: 30px;
-	position: relative;
-	width: 300px;
-}
-
-#footer div div ul li.first {
-	margin-left: 0;
-}
-
-#footer div div ul li h2 {
-	font-size: 16px;
-	font-weight: normal;
-	margin: 0;
-}
-
-#footer div div ul li h2 a,
-div.body div div.content ul li div h1 a {
-	color: #08b5d7;
-	text-decoration: none;
-}
-
-#footer div div ul li h2 a:hover,
-div.body div div.content ul li div h1 a:hover {
-	color: #83e0f1;
-}
-
-#footer div div ul li span.date {
-	background: none;
-	color: #CADF18;
-    font-size: 9px;
-    height: auto;
-    line-height: 11px;
-	position: absolute;
-    left: 200px;
-	text-align: right;
-	text-shadow: none;
-    top: 4px;
-    width: 100px;
-}
-
-#footer div div ul li p {
-	color: #fff;
-	line-height: 24px;
-	margin: 5px 0 0;
-	text-align: justify;
-}
-
-#footer div div ul li a.readmore {
-	color: #cadf18;
-	display: block;
-	text-align: right;
-	text-decoration: none;
-}
-
-#footer div div ul li a.readmore:hover {
-	color: #edfb7b;
-}
-
-#footer div.section {
-	background: #d1d0d5;
-	height: 220px;
-	padding: 30px 0 0;
-	width: 100%;
-}
-
-#footer div.section ul {
-	list-style: none;
-	margin: 0 auto;
-	padding: 0;
-	width: 960px;
-}
-
-#footer div.section ul li {
-	float: left;
-	width: 320px;
-}
-
-#footer div.section ul li.first {
-	margin-left: 0;
-}
-
-#footer div.section ul li img {
-	float: left;
-	margin-right: 5px;
-}
-
-#footer div.section ul li p a.readmore {
-	text-decoration: none;
-}
-
-#footer div.section ul li p a.readmore:hover {
-	color: #770c6e;
-}
-
-#footer div.section ul li p {
-	float: left;
-	width: 210px;
-}
-
-#footer p.footnote {
-	color: #08090e;
-	height: 40px;
-	line-height: 40px;
-	margin: 0;
-	text-align: center;
-	text-shadow: 0 1px #353446;
+#map {
+		height: 400px;
+		width: 100%;
+		float: right;
+	       }
+	       
+#body div div.container {
+    width: 100%;
+ /*   border: 1px solid gray;*/
 }
