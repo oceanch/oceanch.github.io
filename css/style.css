@@ -109,7 +109,7 @@ div.body {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 413px 0 0;
-	width: 960px;
+	width: 100%;
 }
 
 #body div#home div.sidebar {
