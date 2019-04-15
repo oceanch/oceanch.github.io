@@ -14,7 +14,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Man Algorithm Limited</title>
+		<title>Man Algorithm Limited - About us</title>
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
 		<!--
 		CSS
@@ -83,7 +83,7 @@
 			</section-->
 			<!-- End Video Area -->
 			<!-- About Generic Start -->
-			<section class="about-generic-area">
+			<!--section class="about-generic-area">
 				<div class="container border-top-generic">
 					<h3 class="about-title mb-70">Elaboration about Generic Page</h3>
 					<div class="row">
@@ -107,10 +107,40 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section-->
 			<!-- End generic Area -->
 			<!-- Start Conatct- Area -->
 			<section class="contact-area pt-100 pb-100 relative">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row justify-content-center text-center">
+					<div class="single-contact col-lg-6 col-md-8">
+						<h2 class="text-white">Send Us <span>Message</span></h2>
+						<p class="text-white">
+							It always starts with a 'Hi'.
+						</p>
+					</div>
+					</div>
+				<form id="myForm" action="mail.php" method="post" class="contact-form">
+					<div class="row justify-content-center">
+						<div class="col-lg-5">
+							<input name="fname" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mt-20" required="" type="text">
+						</div>
+						<div class="col-lg-5">
+							<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-20" required="" type="email">
+						</div>
+						<div class="col-lg-10">
+							<textarea class="common-textarea mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+					</div>
+					<div class="col-lg-10 d-flex justify-content-end">
+						<button class="primary-btn white-bg d-inline-flex align-items-center mt-20"><span class="mr-10">Send Message</span><span class="lnr lnr-arrow-right"></span></button> <br>
+					</div>
+					<div class="alert-msg"></div>
+					</div>
+				</form>
+				</div>
+			</section>
+			<!--section class="contact-area pt-100 pb-100 relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row justify-content-center text-center">
@@ -139,10 +169,76 @@
 						</div>
 					</form>
 				</div>
-			</section>
+			</section-->
 			<!-- End Conatct- Area -->
 			<!-- Strat Footer Area -->
 			<footer class="section-gap">
+				<div class="container">
+				<div class="row pt-60">
+					<!--div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-uppercase mb-20">Top Product</h6>
+							<ul class="footer-nav">
+								<li><a href="#">Managed Website</a></li>
+								<li><a href="#">Manage Reputation</a></li>
+								<li><a href="#">Power Tools</a></li>
+								<li><a href="#">Marketing Service</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-uppercase mb-20">Navigation</h6>
+							<ul class="footer-nav">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Main Features</a></li>
+								<li><a href="#">Offered Services</a></li>
+								<li><a href="#">Latest Portfolio</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-uppercase mb-20">Compare</h6>
+							<ul class="footer-nav">
+								<li><a href="#">Works & Builders</a></li>
+								<li><a href="#">Works & Wordpress</a></li>
+								<li><a href="#">Works & Templates</a></li>
+							</ul>
+						</div>
+					</div-->
+
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-uppercase mb-20">Quick About</h6>
+							<p>
+                            Mailing Addresses: <br>
+                            45 Northway<br>
+                            Guildford<br>
+                            UK<br>
+                            GU29SD
+							</p>
+							<p>
+								+44 07503016565 <br>
+                                c.han@manalgorithm.com
+                            </p>
+							<div class="footer-social d-flex align-items-center">
+								<a href="https://www.linkedin.com/in/drchonghan"><i class="fa fa-linkedin"></i></a>
+								<!--a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-dribbble"></i></a>
+								<a href="#"><i class="fa fa-behance"></i></a-->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					<p class="footer-text m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Man Algorithm Limited. All rights reserved. </p>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</div>
+				</div>
+			</footer>
+			<!--footer class="section-gap">
 				<div class="container">
 					<div class="row pt-60">
 						<div class="col-lg-3 col-sm-6">
@@ -203,7 +299,7 @@
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					</div>
 				</div>
-			</footer>
+			</footer-->
 			<!-- End Footer Area -->
 		</div>
 		<script src="js/vendor/jquery-2.2.4.min.js"></script>
